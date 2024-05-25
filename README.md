@@ -1,4 +1,4 @@
-# Populate SAS-format CSV file with random marks and grades
+# Populate SAS-format CSV file with random marks and grades for use with SITS by Tribal Group
 
 Populates SAS_ACTM and SAS_ACTG fields on importable-SAT-type csv.
 
@@ -57,16 +57,6 @@ Of the unique values in NEWMKS field, the following are **new MKS records**:
 - U1AMAR
 - P1AMNR
 - P1AMAR
-
-The other provided values correspond to pre-existing schemes and **should be discarded**:
-
-- PGA07
-- UGA11
-- YORK
-- UGM03
-- UGA18
-- UGA14
-- 09PA01
 
 The adopted approach is to produce a **filtered data frame** where the value of NEWMKS corresponds with a new mark scheme code.
 
